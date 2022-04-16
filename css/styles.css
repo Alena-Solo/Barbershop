@@ -1,0 +1,228 @@
+
+
+/* 
+-Універсальний селектор
+-селектор тега
+-селектор id
+-селектор атрибута
+-селектор класу
+-селектор нащадка
+-дочірній селектор
+ */
+
+:root {
+  --header-color: #ffffff;
+  --main-title-color: #ffffff;
+  --main-btn-color:#ffffff;
+  --second-title-color: #303030 ;
+  --second-btn-color: #303030;
+  --accent-color: #FF6C00;
+
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+body {
+  font-family: "Open Sans", Tahoma, sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+,top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  
+}
+.title {
+  font-family: 'Raleway'; Tahoma; sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+}
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+}
+.bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+/* -------Header------ */
+.header {
+  background-color: gray;
+}
+
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  color: var(--header-color);
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  color: var(--header-color);
+}
+
+.header-btn {
+  color: var(--main-btn-color);
+}
+.header-link: hover, :focus;
+ {
+  color: var(--accent-color);
+}
+/* ----------Hero---------- */
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36; 
+  letter-spacing: 0.2em;
+  
+  color: var(--second-title-color);
+}
+.hero-content {
+  background-color: var(--second-btn-color);
+}
+.hero-link: hover, :focus;
+{
+ color: var(--accent-color);
+}
+.hero-top-text {
+   color: rgba(157, 164, 189, 0.6);
+  }
+  .hero-title {
+    font-family: 'Raleway'; Tahoma; sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--main-title-color);
+  }
+   .hero-bottom-text {
+    color: #9DA4BD;
+   }
+   /* -------About------- */
+
+
+
+   .about-top-text {
+    color: var(--second-title-color);
+  }
+  .about-title {
+    color: var(--second-title-color);
+  }
+  .about-bottom-text {
+    color: #555555;
+  }
+  .about-text {
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #555555;
+  }
+  .about-btn {
+
+    color: var(--second-title-color);
+  }
+  /* -------Prices------- */
+  .prices {
+    background-color: var(--second-btn-color);
+  }
+  .prices-top-text {
+    color: rgba(157, 164, 189, 0.6);
+  }
+  .prices-title {
+    color: var(--main-title-color);
+  }
+  .prices-item-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+  }
+  .prices-btn {
+    color: var(--main-title-color);
+  }
+
+  /* -------Reasons------- */
+  
+  .reasons-item-count {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--second-title-color);
+  }
+  .reasons-item-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: var(--second-title-color);
+  }
+  .reasons-top-text {
+  
+    color: var(--second-title-color);
+  }
+  .reasons-title {
+
+    color: var(--second-title-color);
+  }
+  .reasons-bottom-text {
+    color: #555555;
+  }
+
+  /* -------Masters------- */
+
+  .masters-top-text {
+    color: var(--second-title-color);
+  }
+  .masters-title {
+    color: var(--second-title-color);
+  }
+  .masters-item-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;
+  }
+  .masters-item-text {
+     font-size: 14px;
+     line-height: 1.36;
+     text-align: center;
+     letter-spacing: 0.02em;
+     color: var(--accent-color);
+  }
+  /* -------Gallery------- */
+  .gallery-top-text {
+    color: #303030;
+  }
