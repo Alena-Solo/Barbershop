@@ -17,6 +17,7 @@
   --second-title-color: #303030 ;
   --second-btn-color: #303030;
   --accent-color: #FF6C00;
+  --typical-margin: 20px;
 
 }
 
@@ -36,11 +37,39 @@
 body {
   font-family: "Open Sans", Tahoma, sans-serif;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul, ol {
+  padding-left: 0;
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+}
+img {
+  display: block;
+}
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
+}
+
+.conteiner{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
 }
 ,top-text {
   font-weight: 600;
@@ -48,8 +77,8 @@ body {
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  
 }
+
 .title {
   font-family: 'Raleway'; Tahoma; sans-serif;
   font-weight: 700;
@@ -71,6 +100,8 @@ body {
 /* -------Header------ */
 .header {
   background-color: gray;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 
@@ -115,6 +146,7 @@ body {
 }
 .hero-top-text {
    color: rgba(157, 164, 189, 0.6);
+   margin-bottom: var(--typical-margin);
   }
   .hero-title {
     font-family: 'Raleway'; Tahoma; sans-serif;
@@ -123,28 +155,37 @@ body {
     line-height: 1.18;
     letter-spacing: 0.05em;
     color: var(--main-title-color);
+    margin-bottom: var(--typical-margin);
   }
-   .hero-bottom-text {
+  .hero-bottom-text {
     color: #9DA4BD;
+    max-width: 400px;
    }
    /* -------About------- */
 
-
+  .about {
+    padding-top: 139px;
+    padding-bottom: 121px;
+  }
 
    .about-top-text {
     color: var(--second-title-color);
+    margin-bottom: var(--typical-margin);
   }
   .about-title {
     color: var(--second-title-color);
+    margin-bottom: var(--typical-margin);
   }
   .about-bottom-text {
     color: #555555;
+    margin-bottom: var(--typical-margin);
   }
   .about-text {
     font-size: 14px;
     line-height: 1.86;
     letter-spacing: 0.02em;
     color: #555555;
+    margin-bottom: 40px;
   }
   .about-btn {
 
@@ -153,12 +194,25 @@ body {
   /* -------Prices------- */
   .prices {
     background-color: var(--second-btn-color);
+    padding-top: 130px;
+    padding-bottom: 130px;
   }
   .prices-top-text {
     color: rgba(157, 164, 189, 0.6);
+    margin-bottom: var(--typical-margin);
   }
   .prices-title {
     color: var(--main-title-color);
+    margin-bottom: 44px;
+  }
+  .prices-list{
+    border: 1px solid #ffffff;
+    padding: 30px 40px;
+  }
+
+  .prices-item{
+    margin-bottom: var(--typical-margin);
+  
   }
   .prices-item-text {
     font-size: 18px;
@@ -171,13 +225,24 @@ body {
   }
 
   /* -------Reasons------- */
-  
+  .reasons {
+    padding-top: 121px;
+    padding-bottom: 130px;
+  }
+  .reasons-item {
+    width: 170px;
+    height: 130px;
+    border: 1px solid #000000;
+  }
+
   .reasons-item-count {
     font-weight: 700;
     font-size: 42px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.05em;
+    margin-bottom: 6px;
+    display: block;
     color: var(--second-title-color);
   }
   .reasons-item-text {
@@ -200,9 +265,14 @@ body {
   }
 
   /* -------Masters------- */
+  .masters {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
 
   .masters-top-text {
     color: var(--second-title-color);
+    margin-bottom: 20px;
   }
   .masters-title {
     color: var(--second-title-color);
@@ -223,6 +293,11 @@ body {
      color: var(--accent-color);
   }
   /* -------Gallery------- */
+  .gallery {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
   .gallery-top-text {
     color: #303030;
+    margin-bottom: 44px;
   }
