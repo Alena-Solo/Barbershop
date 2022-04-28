@@ -389,9 +389,36 @@ img {
     height: 44px;
     background-color: tomato;
     border-radius: 50%;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     fill: #ffffff; 
+    /* color: #ffffff;   */
+
+    
   }
-  /* -------Gallery------- */
+   .masters-soc-icon {
+    /* fill: #9DA4BD;  */
+    /* fill: currentColor; */
+  }  
+
+    /* .masters-soc-link:hover {
+    background-color: teal;
+     color: #FF6C00; 
+
+     fill: #FF6C00; 
+  }   */
+
+  .masters-soc-link:hover{
+    background-color: teal;
+  }
+  .masters-soc-link:hover .masters-soc-icon {
+    fill: tomato;
+  } 
+
+
+  /* ----
+  ---Gallery------- */
   .gallery {
     padding-top: 130px;
     padding-bottom: 130px;
